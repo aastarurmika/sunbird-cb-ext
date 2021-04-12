@@ -138,7 +138,7 @@ public class PortalServiceImpl implements PortalService {
 	@Override
 	public DepartmentInfo getMyDepartment(String deptType, String userId, boolean isUserInfoRequired, String rootOrg)
 			throws Exception {
-		return enrichDepartmentInfo(getMyActiveDepartment(deptType, userId), isUserInfoRequired, true, rootOrg);
+		return enrichDepartmentInfo(getMyActiveDepartment(deptType, userId), isUserInfoRequired, false, rootOrg);
 	}
 
 	@Override
