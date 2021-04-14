@@ -5,5 +5,5 @@ docker run --name sb-cb-ext-build sb-cb-ext-build:latest &&  docker cp sb-cb-ext
 docker rm -f sb-cb-ext-build
 docker rmi -f sb-cb-ext-build
 
-docker build --no-cache -t eagle-docker.tarento.com/lex-core-service:gold .
-docker push eagle-docker.tarento.com/lex-core-service:gold
+docker build --no-cache -t aastardev1/lex-core-service:gold .
+docker push aastardev1/lex-core-service:gold
